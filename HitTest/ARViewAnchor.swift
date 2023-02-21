@@ -8,7 +8,6 @@
 import AppKit
 import Combine
 import Foundation
-import GridEntity
 import RealityKit
 
 public class ARViewAnchor: Entity, HasAnchoring, CameraStateProvider {
