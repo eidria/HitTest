@@ -11,6 +11,16 @@
 		2425871129A2AFCC003BDE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425871029A2AFCC003BDE6D /* ContentView.swift */; };
 		2425871329A2AFCD003BDE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2425871229A2AFCD003BDE6D /* Assets.xcassets */; };
 		2425871629A2AFCD003BDE6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2425871529A2AFCD003BDE6D /* Preview Assets.xcassets */; };
+		2425872129A3E356003BDE6D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872029A3E356003BDE6D /* CameraController.swift */; };
+		2425872529A3FD5F003BDE6D /* CameraState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872229A3FD5F003BDE6D /* CameraState.swift */; };
+		2425872629A3FD5F003BDE6D /* ViewRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872329A3FD5F003BDE6D /* ViewRepresentation.swift */; };
+		2425872729A3FD5F003BDE6D /* RepresentedARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872429A3FD5F003BDE6D /* RepresentedARView.swift */; };
+		2425872A29A3FEFC003BDE6D /* RepresentedARViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872829A3FEFC003BDE6D /* RepresentedARViewCoordinator.swift */; };
+		2425872B29A3FEFC003BDE6D /* ARViewEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872929A3FEFC003BDE6D /* ARViewEventHandler.swift */; };
+		2425872D29A40091003BDE6D /* ARViewAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872C29A40091003BDE6D /* ARViewAnchor.swift */; };
+		2425872F29A41763003BDE6D /* HasEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425872E29A41763003BDE6D /* HasEventHandler.swift */; };
+		2425873129A41B7E003BDE6D /* Collision+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2425873029A41B7E003BDE6D /* Collision+.swift */; };
+		24719ACB29A536B100FF6768 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24719ACA29A536B100FF6768 /* BoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		2425871229A2AFCD003BDE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2425871529A2AFCD003BDE6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2425871729A2AFCD003BDE6D /* HitTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HitTest.entitlements; sourceTree = "<group>"; };
+		2425872029A3E356003BDE6D /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		2425872229A3FD5F003BDE6D /* CameraState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraState.swift; sourceTree = "<group>"; };
+		2425872329A3FD5F003BDE6D /* ViewRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRepresentation.swift; sourceTree = "<group>"; };
+		2425872429A3FD5F003BDE6D /* RepresentedARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentedARView.swift; sourceTree = "<group>"; };
+		2425872829A3FEFC003BDE6D /* RepresentedARViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentedARViewCoordinator.swift; sourceTree = "<group>"; };
+		2425872929A3FEFC003BDE6D /* ARViewEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewEventHandler.swift; sourceTree = "<group>"; };
+		2425872C29A40091003BDE6D /* ARViewAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewAnchor.swift; sourceTree = "<group>"; };
+		2425872E29A41763003BDE6D /* HasEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasEventHandler.swift; sourceTree = "<group>"; };
+		2425873029A41B7E003BDE6D /* Collision+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collision+.swift"; sourceTree = "<group>"; };
+		24719ACA29A536B100FF6768 /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +72,21 @@
 		2425870D29A2AFCC003BDE6D /* HitTest */ = {
 			isa = PBXGroup;
 			children = (
-				2425870E29A2AFCC003BDE6D /* HitTestApp.swift */,
-				2425871029A2AFCC003BDE6D /* ContentView.swift */,
 				2425871229A2AFCD003BDE6D /* Assets.xcassets */,
+				2425872029A3E356003BDE6D /* CameraController.swift */,
+				2425872229A3FD5F003BDE6D /* CameraState.swift */,
+				2425873029A41B7E003BDE6D /* Collision+.swift */,
+				2425871029A2AFCC003BDE6D /* ContentView.swift */,
+				2425872E29A41763003BDE6D /* HasEventHandler.swift */,
 				2425871729A2AFCD003BDE6D /* HitTest.entitlements */,
+				2425870E29A2AFCC003BDE6D /* HitTestApp.swift */,
 				2425871429A2AFCD003BDE6D /* Preview Content */,
+				24719ACA29A536B100FF6768 /* BoxView.swift */,
+				2425872929A3FEFC003BDE6D /* ARViewEventHandler.swift */,
+				2425872429A3FD5F003BDE6D /* RepresentedARView.swift */,
+				2425872829A3FEFC003BDE6D /* RepresentedARViewCoordinator.swift */,
+				2425872C29A40091003BDE6D /* ARViewAnchor.swift */,
+				2425872329A3FD5F003BDE6D /* ViewRepresentation.swift */,
 			);
 			path = HitTest;
 			sourceTree = "<group>";
@@ -85,6 +115,8 @@
 			dependencies = (
 			);
 			name = HitTest;
+			packageProductDependencies = (
+			);
 			productName = HitTest;
 			productReference = 2425870B29A2AFCC003BDE6D /* HitTest.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +145,8 @@
 				Base,
 			);
 			mainGroup = 2425870229A2AFCC003BDE6D;
+			packageReferences = (
+			);
 			productRefGroup = 2425870C29A2AFCC003BDE6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2425872129A3E356003BDE6D /* CameraController.swift in Sources */,
+				2425872729A3FD5F003BDE6D /* RepresentedARView.swift in Sources */,
+				24719ACB29A536B100FF6768 /* BoxView.swift in Sources */,
+				2425872D29A40091003BDE6D /* ARViewAnchor.swift in Sources */,
 				2425871129A2AFCC003BDE6D /* ContentView.swift in Sources */,
+				2425872529A3FD5F003BDE6D /* CameraState.swift in Sources */,
 				2425870F29A2AFCC003BDE6D /* HitTestApp.swift in Sources */,
+				2425872F29A41763003BDE6D /* HasEventHandler.swift in Sources */,
+				2425872B29A3FEFC003BDE6D /* ARViewEventHandler.swift in Sources */,
+				2425872A29A3FEFC003BDE6D /* RepresentedARViewCoordinator.swift in Sources */,
+				2425872629A3FD5F003BDE6D /* ViewRepresentation.swift in Sources */,
+				2425873129A41B7E003BDE6D /* Collision+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
