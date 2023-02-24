@@ -14,7 +14,7 @@ public protocol CameraStateProvider {
 }
 
 public struct CameraState: Codable {
-    static var defaultCameraState = CameraState(cameraTarget: simd_float3(), inclinationInDegrees: -40.0, rotationAngleInDegrees: 0.0, radius: 5.0)
+    static var defaultCameraState = CameraState(cameraTarget: simd_float3(), inclinationInDegrees: -45.0, rotationAngleInDegrees: 45.0, radius: 5.0)
     
     var cameraTarget: simd_float3
     var inclinationAngleInRadians: Float
